@@ -23,6 +23,7 @@ else:
         return cnt
 
     ways(l)
+    
     total = 0
     for i in l_cases:
         total+=score(i)
